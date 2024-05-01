@@ -1,0 +1,32 @@
+
+#nadpis {
+    text-align: center;
+    color: green;
+}
+
+table {
+    border-style: dashed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 600px;
+    text-align: center;
+    border-spacing: 10px;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+}
+#menu {
+    color: blue;
+    text-align: center;
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
