@@ -28,11 +28,12 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: red;
+    color: green;
+}
+a:visited {
+  color: yellow;
 }
 #linky {
     text-align: center;
 }
-a:visited {
-  color: green;
-}
+
