@@ -1,0 +1,118 @@
+html {
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+p {
+    text-align: left;
+}
+.nav-bar {
+    justify-content: center;
+    display: flex;
+}
+
+.nav-bar ul {
+    /* margin: 0, 5%; */
+    display: inline-flex;
+    list-style: upper-roman;
+    /* padding: 0, 5%, 0, 5%; */
+    gap: 4rem;
+    
+}
+
+.nav-bar ul li a {
+    display: flex;
+    color: gray;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.page-body {
+    /* border-style: dotted; */
+    justify-content: left;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 2rem auto;
+    padding: 0 1rem;
+    
+    text-align: justify;
+    box-sizing: border-box;
+}
+ @media (max-width: 600px) {
+    .page-body {
+        justify-content: left;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        padding: 0 0 0 0;
+        text-align: justify;
+        box-sizing: border-box;
+    }
+    img {
+        max-width: 100%;
+        display: flex;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        height: auto;
+    }
+ }
+.page-body ul {
+    list-style: none;
+}
+
+.page-body .lang-list ul{
+    list-style: none;
+}
+.page-body .lang-list li::before{
+    content: ">";
+}
+
+.page-body.link-list ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: medium;
+}
+
+.page-body ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: small;
+    
+}
+
+.tooltip {
+    position: relative;
+    display: inline-flex;
+    border-bottom: 1px dotted #363737;
+}
+.tooltip .tooltip-item {
+    visibility: hidden;
+    width: 20rem;
+    background-color: black;
+    color: #D3D3D3;
+    text-align: justify;
+    border-style: dashed;
+    border-color: white;
+    border-width: 2px;
+
+    /* Positon */
+
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -5rem;
+    padding: -0.5rem;;
+}
+
+.tooltip:hover .tooltip-item {
+    visibility: visible;
+}
+
+img {
+    width: 45%;
+
+}
